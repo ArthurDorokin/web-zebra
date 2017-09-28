@@ -79,7 +79,7 @@ function choseChange() {
     function autoChange() {
         setTimeout(function(){
             window.requestAnimationFrame(autoChange)
-        },1000);
+        },3000);
         init++
         init > $('.item-why').length - 1 ? init = 0 : '';
 
