@@ -465,9 +465,16 @@ figure .search{
 .why-me-content-right .item-why.active {
     background: url("../images/displaynone.png");
 }
-.why-me-content-left .item-why-1 .active span {
+.why-me-content-left .item-why.active span {
+     position: absolute;
+     margin: -20px 0 0 -35px;
+     font-size: 72px;
+     color: #be9753;
+     font-weight: bold;
+ }
+.why-me-content-right .item-why.active span {
     position: absolute;
-    margin: -20px 0 0 -35px;
+    margin: -20px 0 0 35px;
     font-size: 72px;
     color: #be9753;
     font-weight: bold;
